@@ -1,0 +1,12 @@
+/* Character.css */
+.character-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  text-align: center;
+}
+
+.character-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}

@@ -1,38 +1,108 @@
-.App {
+/* App.css */
+
+.app {
+  text-align: center;
+  margin: 40px;
+}
+
+.character-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.character-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.character-card img {
+  max-width: 100%;
+  border-radius: 8px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.favorites-section {
+  margin-top: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.favorites-list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.favorite-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.favorite-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.favorite-card h3 {
+  margin-top: 8px;
+}
+
+.fa-heart {
+  margin-top: 8px;
+}
+
+/* App.css */
+
+/* ... existing styles ... */
+
+.favorite-checkbox {
+  margin-bottom: 8px;
+}
+
+.favorite-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  text-align: center;
+}
+
+.favorite-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.favorite-card h3 {
+  margin-top: 8px;
+}
+
+.fa-heart {
+  margin-top: 8px;
+}
+
+.related-characters-section {
+  margin-top: 40px;
+}
+
+.related-characters-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.related-character-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  text-align: center;
+}
+
+.related-character-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.related-character-card h3 {
+  margin-top: 8px;
 }
